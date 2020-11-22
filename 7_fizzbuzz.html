@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type="text/javascript">
+for (var i = 1; i<=100; i++) {
+  fizzBuzz(i);
+}
+
+function fizzBuzz(angka) {
+  if (angka % 3 == 0 && angka % 5 == 0) { 
+    document.write('FizzBuzz<br>');
+  } else if (angka % 3 == 0) { 
+    document.write('Fizz<br>');
+  } else if (angka % 5 == 0) {
+    document.write('Buzz<br>');
+  } else {
+    document.write(angka + '<br>');
+  }
+}
+
+function tulisAngka(angka) {
+  if (angka % 2 == 0) {
+    document.write('Angka ' + angka + ' adalah angka genap<br>');
+  } else {
+    document.write('Angka ' + angka + ' adalah angka ganjil<br>');
+  }
+}
+
+// Fungsi di bawah ini menampilkan pesan
+// sesuai nama yang dimasukkan
+function hai(nama) {
+  if ( 1 + 1 == 3) { 
+    document.write('Hai ' + nama + '!<br>');
+  }
+}
+
+</script>
+</head>
+<body>
+Selamat datang
+</body>
+</html>
