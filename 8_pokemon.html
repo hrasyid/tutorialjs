@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript">
+var pikachuHitPoint = 100;
+var pikachuAttack = 25;
+var snorlaxHitPoint = 120;
+var snorlaxAttack = 15;
+
+// 1 = pikachu, 2 = snorlax
+var giliran = 1;
+while (pikachuHitPoint > 0 && snorlaxHitPoint > 0) {
+  document.write('HP Pikachu: ' + pikachuHitPoint + '. HP Snorlax: ' + snorlaxHitPoint + '<br>');
+  if (giliran == 1) {
+    document.write('Serangan pikachu: ' + pikachuAttack + ' poin<br>');
+    snorlaxHitPoint -= pikachuAttack;
+    giliran = 2;
+  } else {
+    document.write('Serangan snorlax: ' + snorlaxAttack + ' poin<br>');
+    pikachuHitPoint -= snorlaxAttack;
+    giliran = 1;
+  }
+}
+
+if (pikachuHitPoint > 0) {
+  document.write('<h1>Pikachu menang!</h1>');
+} else {
+  document.write('<h1>Snorlax menang!</h1>');
+}
+
+
+</script>
+</head>
+<body>
+<h1>Selamat datang di pelajaran JavaScript</h1>
+<body>
+</html>
