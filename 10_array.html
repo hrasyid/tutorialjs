@@ -3,9 +3,13 @@
 <script type="text/javascript">
 <!-- Silakan mulai koding di sini -->
 var daftarTempat = ['rumah makan', 'taman kota', 'pom bensin', 'hotel', 'pasar', 'masjid'];
+
 daftarTempat[3] = 'losmen';
+
 document.write('Sebelum push, length berisi ' + daftarTempat.length + '<br>');
+
 daftarTempat.push('mall');
+
 document.write('Jumlah tempat yang dikunjungi adalah ' + daftarTempat.length + '<br>');
 for (var i in daftarTempat) {
    document.write('Tempat ke-' + i + ' adalah ' + daftarTempat[i] + '<br>');
