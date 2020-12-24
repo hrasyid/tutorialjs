@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+<!-- Silakan mulai koding di sini -->
+var daftarNilai = [ 80, 85, 85, 75, 50, 95, 60, 70, 99, 76, 66];
+
+var max = daftarNilai[0];
+for (var i in daftarNilai) {
+  document.write('Nilai tertinggi selama ini adalah ' + max);
+  if (daftarNilai[i] > max) {
+    document.write('Ditemukan ' + daftarNilai[i] + ' yang lebih tinggi, sehingga max diupdate<br>');
+    max = daftarNilai[i];
+  } else {
+    document.write('Ditemukan ' + daftarNilai[i] + ' yang tidak lebih tinggi, sehingga max tidak diupdate<br>');
+  }
+}
+
+alert('Nilai tertinggi adalah ' + max);
+
+</script>
+</head>
+<body>
+<h1>Selamat datang di pelajaran JavaScript</h1>
+<body>
+</html>
