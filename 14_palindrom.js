@@ -1,6 +1,7 @@
 // Untuk mencoba, silakan copy/paste salah satu dari tiga versi ini
 // di Developer Console, 
 // seperti ditunjukkan di video Pintar Programming
+// https://www.youtube.com/watch?v=uGoc9YWZNvo
 
 // Versi 1: Dasar
 function isPalindrome(kata) {
